@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tip-n-Split</h1>
+
+        <div class="amount-container">
+        <p>Bill Amount(₹)</p><input type="number" class="input" id="bill" placeholder="0"></input>
+       </div>
+       <div class="amount-container">
+        <p>Tip Percentage(%) </p><input type="number" class="input" id="tipP" placeholder="0"></input>
+       </div>
+       <div class="amount-container">
+        <p>Tip Amount(₹) </p><div type="text" class="input" id="tipA"></div>
+       </div>
+       <div class="amount-container">
+        <p>Total Amount(₹) </p><div type="text" class="input" id="tAmount"></div>
+       </div>
+       <div class="amount-container">
+        <p>Number of People </p><input type="number" class="input" id="numberP" placeholder="0"></input>
+       </div>
+       <div class="amount-container">
+        <p>Amount Each(₹) </p><div type="text" class="input" id="amountE"></div>
+       </div>
+    <div class="button">
+      <button class="calculate-tip">Tip Amount</button>
+      <button class="calculate-amount">Total Amount</button>
+      <button class="calculate-each">Each Amount</button>
+    </div>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>
